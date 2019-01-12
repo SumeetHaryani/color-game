@@ -1,4 +1,4 @@
-var numSquares = 6
+var numSquares = 6;
 var colors = [];
 var pickedColor;
 var squares = document.querySelectorAll(".square");
@@ -45,7 +45,7 @@ function setUpModeButtons() {
 			} else {
 				numSquares = 6;
 			}
-			reset()
+			reset();
 		})
 	}
 }
@@ -54,8 +54,8 @@ function reset() {
 	colors = generateRandomColors(numSquares);
 	pickedColor = pickColor();
 	colorDisplay.textContent = pickedColor;
-	message.textContent = ""
-	resetButton.textContent = "New Colors"
+	message.textContent = "";
+	resetButton.textContent = "New Colors";
 	for (var i = 0; i < squares.length; i++) {
 		if (colors[i]) {
 			squares[i].style.display = "block";
@@ -63,7 +63,7 @@ function reset() {
 		} else {
 			squares[i].style.display = "none";
 		}
-		h1.style.backgroundColor = "steelblue"
+		h1.style.backgroundColor = "steelblue";
 	}
 }
 
@@ -88,7 +88,7 @@ function generateRandomColors(x) {
 	for (var i = 0; i < x; i++) {
 		arr[i] = randomColor();
 	}
-	return arr
+	return arr;
 }
 
 function randomColor() {
