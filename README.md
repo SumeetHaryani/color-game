@@ -1,6 +1,6 @@
 ## Color-Game-project
 
-RGB Color guessing game using javascript, HTML5 and CSS.
+[RGB Color guessing game](https://sumeetharyani.github.io/color-game/) using javascript, HTML5 and CSS.
 
 ### The RGB color game works as follows
 
